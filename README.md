@@ -1,16 +1,16 @@
-# USO DE LA TERMINAL
+# SINCRONIZAR GIT Y GITHUB
 
-Compendio de chuletas para usar la terminal.
+Chuletilla con las acciones básicas
 
-## Índice:
+## Índice
 
-1. Comandos Básicos
-2. Uso de Symfony.
+1. [Subir un Repositorio Local](#subir)
+2. [Instalar un Repositorio de GitHub](#bajar)
 3. Sincronizar Git con github.
 
-## 3. Sincronizar git con Github.
+## 3. Sincronizar git con Github
 
-### 1. Subir un repositorio.
+### 1. Subir un repositorio
 
 La primera posibilidad es que ya tengamos un repositorio local y queramos subirlo a GitHub. Recordemos que para GitHub es importante que tengamos un archivo `README.md`.
 
@@ -30,7 +30,9 @@ git push origin master
 
 Si todo ha ido bien, ya estará subido a Github.
 
-### 2. Bajar un repositorio alojado en GitHub.
+---
+
+### 2. Bajar un repositorio alojado en GitHub
 
 En la página del repositorio de Github, verás en la esquina superior derecha el botón `<> Code`. Al pincharlo, te aparecerá el enlace del repositorio.
 
@@ -48,7 +50,9 @@ Para este caso específico, será tan sencillo como volver a instalar composer *
 composer install
 ```
 
-### 3. Sincronización.
+---
+
+### 3. Sincronización
 
 Si lo has hecho bien, al menos en teoría, cuando modifiques un archivo en tu proyecto y hagas un _commit_, en la sección **_Control de código fuente_** de tu _VisualStudio_
 debería de aparecer una flecha circular para sincronizar con github. pinchar ahí es el equivalente a un `PULL` y así lo mantendrás sincronizado.
