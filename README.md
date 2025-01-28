@@ -17,13 +17,14 @@ La primera posibilidad es que ya tengamos un repositorio local y queramos subirl
 El Siguiente paso es crear un repositorio en GitHub, con el que enlazaremos nuestro repositorio local. Le ponemos el nombre y decidimos si va a ser un repositorio público o privado. No es recomendable hacer más configuraciones en principio, para que no haya interferencia en las versiones y podamos sincronizar nuestro repositorio local sin problemas.
 
 **En la carpeta del proyecto** abrimos la terminal para hacer la conexión, y escribimos la orden con el enlace al repositorio **que nos de Github**.
-```
+
+```bash
 git remote add origin https://github.com/TuUsuario/nombre-del-proyecto.git
 ```
 
 Si todo ha funcionado como debería, **no pasará nada**. Ahora, para enviar tu repositorio local a GitHub, tienes que ejecutar la orden `push`. Dependiendo de tu versión, tendrás que utilizar la palabra `master` o `main` para referirte a la rama principal.
 
-```
+```bash
 git push origin master
 ```
 
@@ -35,7 +36,7 @@ En la página del repositorio de Github, verás en la esquina superior derecha e
 
 Para clonar ese repositorio en tu espacio de trabajo local, abre la terminal en el directorio que vaya a contener el proyecto, y usa el comando `clone` de la siguiente manera:
 
-```
+```bash
 git clone https://github.com/TuUsuario/nombre-del-proyecto.git
 ```
 
@@ -43,7 +44,7 @@ git clone https://github.com/TuUsuario/nombre-del-proyecto.git
 
 Para este caso específico, será tan sencillo como volver a instalar composer **en el directorio del proyecto:**
 
-```
+```bash
 composer install
 ```
 
